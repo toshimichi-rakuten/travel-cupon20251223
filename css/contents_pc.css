@@ -1,0 +1,31 @@
+.sp { display: none !important; }
+#widewrapper{width: 100%; position: relative; clear: both; font-family: 'メイリオ', 'Meiryo';}
+.ss-container{ margin: 40px 0 0; border-radius: 0 !important;}
+
+a:hover { opacity: 0.8; text-decoration: none !important; }
+
+
+
+/* coupon */
+#getAllCoupon{ margin: 0; padding: 32px 0 40px; background: #213153;}
+#getAllCoupon .txt{color: #FFF; font-size: 36px; font-weight: 500; text-align: center; line-height: 140%; /* 50.4px */ letter-spacing: 1.44px; position: relative;}
+#getAllCoupon .txt::after{ display: block; content: ""; width: 220px; height: 1px; background: #fff; position: absolute; left: 50%; top: 60px; transform: translateX(-50%);}
+#getAllCoupon .txt span{ display: block; margin-top: 40px; font-size: 20px;line-height: 140%; /* 28px */ letter-spacing: 1.6px;}
+#getAllCoupon .txt2{ color: #fff; font-size: 12px; line-height: 1.6; margin-top: 12px;}
+.getAllCoupon{ display: flex; justify-content: center; align-items: center; flex-direction: column;}
+.cpn-all-click{display: flex;justify-content: center; margin: 20px auto 0;}
+.cpn-all-click-btns{background: #bf0000; color: #fff; display: block; padding: 16px 0; font-size: 24px; border: none; border-radius: 100rem; width: 425px; line-height: 1; font-family: inherit; position: relative;}
+.cpn-all-click-btns::after{ content: ""; position: absolute; right: 8%; top: 50%; width: 10px; height: 10px; border-top: 2px solid #fff; border-right: 2px solid #fff; transform: translateY(-50%) rotate(45deg);}
+.cpn-all-click-btns:hover{opacity: .8; cursor: pointer;}
+.cpn-all-click-btns.acquired, .cpn-all-click-btns.finished, .cpn-all-click-btns.expired{background: #666; color: #fff; cursor: not-allowed;}
+
+.coupon__filter__guide{ margin: 24px 0 0; justify-content: flex-start;}
+.coupon__filter__guide::after{ background-image: url(https://img.travel.rakuten.co.jp/special/special-offers/images/modal_svg.svg);display: none;}
+.coupon__filter__guide a{ padding: 4px 32px 4px 8px; background: #D9D9D9 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAiCAMAAADmrkDzAAAARVBMVEUAAAAwMDAwMDAwMDAxMTEzMzMyMjIzMzMzMzMyMjIzMzM1NTUyMjIwMDAzMzMzMzMyMjIxMTEyMjIzMzMyMjI0NDQzMzP51LwrAAAAFnRSTlMAIEAwoJ+Av+9/r2BgEFDP3x9w3+9Aa03MBwAAAHlJREFUeNrdykUSQkEUA8DvriPv/kfFSRhSxQ7rdWcfkhdQylEZ1HI07VWHofXGQ4cBQ4dxwpjzq5lDhrF0djVxoLHadrVQ4LHZnl0hyMFBDw56cNCDA+PBQQ9HQY95RRCDuM29GI01fzzahE+Gsychzx7EKTVnb3YA6mQP/gr9fQ8AAAAASUVORK5CYII=) no-repeat 96% center / 16px; color: #213153;}
+.couponlink{ display: flex; justify-content: center; align-items: center; margin: 20px auto 0;}
+.couponlink a{ display: block; padding: 12px 50px 12px 24px; border: 1px solid #D9D9D9; border-radius: 3px; font-size: 14px; color: #fff; position: relative;}
+.couponlink a::after{ content: ""; position: absolute; right: 8%; top: 25%; width: 10px; height: 10px; border-top: 2px solid #fff; border-right: 2px solid #fff; transform: rotate(135deg);}
+
+#coupon{background: #F5F5F5; padding:64px 0; margin-top: 0;}
+#coupon .ttl { font-family: 'Noto Serif JP', serif; color: #000; text-align: center; font-size: 24px; font-style: normal; font-weight: 600; line-height: 100%; }
+
