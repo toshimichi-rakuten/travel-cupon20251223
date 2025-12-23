@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rakuma Design System</title>
+    <meta name="description" content="Static HTML pages" />
+    <style>
+      :root {
+        color-scheme: light;
+      }
+
+      body {
+        margin: 0;
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji",
+          "Segoe UI Emoji";
+        line-height: 1.5;
+        color: #111;
+        background: #f6f7f9;
+      }
+
+      .page {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 24px;
+      }
+
+      .card {
+        width: 100%;
+        max-width: 720px;
+        background: #fff;
+        border: 1px solid #e5e7eb;
+        border-radius: 16px;
+        padding: 24px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+      }
+
+      .title {
+        margin: 0 0 12px;
+        font-size: 20px;
+        font-weight: 700;
+      }
+
+      .subtitle {
+        margin: 0 0 20px;
+        font-size: 14px;
+        color: #4b5563;
+      }
+
+      .link-list {
+        display: grid;
+        gap: 12px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .link-item {
+        border: 1px solid #e5e7eb;
+        border-radius: 12px;
+        overflow: hidden;
+      }
+
+      .link {
+        display: block;
+        padding: 14px 16px;
+        text-decoration: none;
+        color: inherit;
+      }
+
+      .link:hover {
+        background: #f9fafb;
+      }
+
+      .link-title {
+        display: block;
+        font-weight: 700;
+        margin: 0 0 2px;
+      }
+
+      .link-desc {
+        display: block;
+        font-size: 13px;
+        color: #6b7280;
+      }
+
+      .note {
+        margin: 18px 0 0;
+        font-size: 12px;
+        color: #6b7280;
+      }
+
+      code {
+        padding: 2px 6px;
+        border-radius: 6px;
+        background: #f3f4f6;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <section class="card" aria-label="Pages">
+        <h1 class="title">Rakuma Design System</h1>
+        <p class="subtitle">このリポジトリ内の静的HTMLページ一覧です。</p>
+
+        <ul class="link-list">
+          <li class="link-item">
+            <a class="link" href="index%20まとめてクーポン.html">
+              <span class="link-title">まとめてクーポン（楽天トラベル）</span>
+              <span class="link-desc">クーポン一括獲得UIのサンプルページ</span>
+            </a>
+          </li>
+        </ul>
+
+        <p class="note">メモ: このページはファイル名にスペース・日本語を含みます。URLが開けない場合は、上部リンクではなく、ブラウザのアドレスバーで <code>/index%20まとめてクーポン.html</code> のように直接指定してください。</p>
+      </section>
+    </main>
+  </body>
+</html>
